@@ -14,7 +14,8 @@ $shape = Shape::getShape('circle', 3);
 // This should output 9*Pi
 echo $shape->getArea();
 
+echo "<br>";
 
-$shape = Shape::getShape('square', 3);
+$shape2 = Shape::getShape('square', 3);
 // This should output 9
-echo $shape->getArea();
+echo $shape2->getArea();
